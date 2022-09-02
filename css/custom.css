@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+.flex{
+	display: flex;
+}
+.vCenter {
+	align-items: center;
+}
+.hCenter {
+	justify-content: center;
+}
+header {
+	border-bottom: 2px solid #e6dfdf;
+}
+nav {
+	width: calc(100% - 200px );
+	margin: auto;
+	padding: 15px 0;
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo a {}
+.logo a img{}
+.nav {
+	flex-basis: 80%;
+}
+.nav ul{
+	justify-content: flex-end;
+	list-style: none;
+}
+.nav ul li {}
+.nav ul li a {
+	color: #3b506c;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	transition-duration: 0.3s;
+}
+.nav ul li a:hover {
+	background-color: #0c66ff;
+	color: #fff;
+}
+.overviews_sections{
+	padding: 50px 0;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+}
+.overviews_content {
+	text-align: center;
+}
+.overviews_content h1{
+	font-size: 70px;
+	font-weight: 900;
+	color: #3b506c;
+}
+.overviews_content h1 span{
+	color: #0c66ff;
+	display: block;
+}
+.overviews_content p{
+	color: #3b506c;
+	max-width: 700px;
+	margin: 30px auto;
+}
+.overviews_content img{
+	margin: auto;
+	max-width: 700px;
+}
+
+.featured_section {
+	padding: 30px 0;
+}
+.col-1-2{
+	flex-basis: 50%;
+	padding: 20px;
+}
+.featured_section h2{
+	font-size: 56px;
+	font-weight: 800;
+	color: #3b506c;
+	line-height: 1.2;
+}
+.featured_section h2.number{
+	color: #ff6347;
+	text-align: right;
+}
+.featured_section p{
+	color: color: #3b506c;
+	text-align: right;
+}
+
+
+
+.service_section {
+	width: calc(100% - 200px );
+	margin: auto;
+	padding: 50px 0;
+}
+.col-1-3{
+	flex-basis: 33.33%;
+	padding: 20px;
+}
+.service{
+	padding: 150px 35px;
+}
+.color1{
+	background: #ffe4e8;
+}
+.color2{
+	background: #e3f9f1;
+}
+.color3{
+	background: #fff5e0;
+}
+.service img{
+	height: 210px;
+	margin: auto;
+}
+.service h3{
+	font-size: 25px;
+	font-weight: 800;
+	color: #3b506c;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.service p{
+	font-size: 13px;
+	color: #3b506c;
+	line-height: 1.2;
+}
+
+
+
+footer {
+	background: #4e84fa;
+	padding: 20px 0;
+}
+footer p{
+	text-align: center;
+	color: #fff;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
